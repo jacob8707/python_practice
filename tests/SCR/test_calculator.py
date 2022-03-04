@@ -5,11 +5,13 @@ def test_sum():
     assert cal.sum(2,1)==3
 
 
-def test_substract():
-    assert cal.substract(3,1)==2
+def test_subtract():
+    assert cal.subtract(3,1)==2
 
 def test_divide():
     assert cal.divide(10,0)=='Error! The dividing number can NOT be zero'
 
+def test_remainder():
+    assert cal.remainder(3,2)==1
 
 
