@@ -11,5 +11,8 @@ def test_substract():
 def test_divide():
     assert cal.divide(10,0)=='Error! The dividing number can NOT be zero'
 
+def test_fdivide():
+    assert cal.fdivide(10,6)==1
+
 
 
